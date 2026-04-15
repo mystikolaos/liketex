@@ -1,0 +1,25 @@
+/* LikeTeX
+ * This CSS file reproduces the visual style of LaTeX.
+ *
+ * Latest revision: 2026-04-15
+ *
+ * Created and unlicensed by Mikołaj Bartnicki <mikolaj@bartnicki.org>;
+ * please read UNLICENSE file for details.
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
