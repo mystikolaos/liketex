@@ -1,7 +1,7 @@
 /* LikeTeX
  * This CSS file reproduces the visual style of LaTeX.
  *
- * Latest revision: 2026-04-15
+ * Latest revision: 2026-04-20
  *
  * Created and unlicensed by Mikołaj Bartnicki <mikolaj@bartnicki.org>;
  * please read UNLICENSE file for details.
@@ -11,15 +11,26 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+    color: black;
+    font-size: 1.05rem;
+    hyphens: auto;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 65ch;
+    padding: 4rem 1rem;
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
 a, a:link, a:visited {
     text-decoration: none;
 }
 
 a:hover, a:active {
     text-decoration: underline;
-}
-
-body {
-    background-color: white;
-    color: black;
 }
