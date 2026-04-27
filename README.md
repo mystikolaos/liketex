@@ -1,6 +1,7 @@
 # LikeTeX
 
-A lightweight CSS theme that brings LaTeX-style look & feel to HTML pages. Ideal for notes, articles, and technical documentation.
+A lightweight CSS theme that brings LaTeX-style look & feel to HTML pages.
+Ideal for notes, articles, and technical documentation.
 
 ## Author
 
